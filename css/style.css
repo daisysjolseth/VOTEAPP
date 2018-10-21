@@ -32,7 +32,7 @@ header {
 }
 
 header .navbar-brand {
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: .2em;
   font-weight: 400;
   color: #fff !important;
@@ -198,14 +198,15 @@ header .navbar.navbar-light .nav-link.active {
 
 @media (max-width: 991.98px) {
   .img-md-fluid {
-    max-width: 100%;
+/*    max-width: 50%;*/
+      width: 50px;
   }
 }
 
 .feature-destination, .slider-wrap {
   position: relative;
   z-index: 10;
-  margin-top: -50px;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 
